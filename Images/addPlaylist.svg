@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 100 100">
+  <!-- Transparent circle with stroke -->
+  <circle cx="50" cy="50" r="45" fill="#1ed760" stroke="#1ed760" stroke-width="2"/>
+  <!-- Play icon with padding -->
+  <polygon points="35,25 75,50 35,75" fill="black"/>
+</svg>

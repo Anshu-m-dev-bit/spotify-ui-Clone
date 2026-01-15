@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left_top">
+                <div class="iconsTop">
+                    <img class="invert" src="Images/logo.svg" alt="">
+                    <img class="close" src="Images/close.svg" alt="">
+                </div>
+                <div class="icons">
+                    <img class="invert" src="Images/home.svg" alt="">
+                    <span class="invert">Home</span>
+                </div>
+                <div class="icons">
+                    <img class="invert" src="Images/search.svg" alt="">
+                    <span class="invert">Search</span>
+                </div>
+            </div>
+            <div class="left_down">
+                <div class="adjust">
+                    <div class="icons2">
+                        <img class="invert" src="Images/library.svg" alt="">Your Library
+                    </div>
+                    <img class="invert" src="Images/addLibrary.svg" alt="">
+                </div>
+                <div class="songsList"><ul></ul></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="rightHead">
+                <div class="icons1">
+                    <img class="invert hamburger" src="Images/hamburger.svg" alt="">
+                    <img src="Images/playlistLeftSvg.svg">
+                    <img src="Images/playlistSvg.svg">
+                </div>
+                <div class="btn">
+                    <button class="btn-SignIn">Sign In</button>
+                    <button class="btn-logIn">Log In</button>
+                </div>
+            </div>
+            <div class="content">
+                <span style="color: white;">Spotify Albums</span>
+                <div class="cardContainer"></div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="playBar">
+            <div class="trackInfo">
+                <div class="songInfo invert"></div>
+                <div class="controls">
+                    <img id="previous" src="Images/previous.svg" alt="">
+                    <img id="play" src="Images/play.svg" alt="">
+                    <img id="next" src="Images/next.svg" alt="">
+                </div>
+                <div class="timeVol">
+                    <div class="duration invert"></div>
+                    <img id="vol" src="Images/volume.svg" alt="">
+                    <input id="volSet" type="range" name="volume">
+                </div>
+            </div>
+            <div>
+                <input id="range" value = "0" type="range" name="seekbar">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
