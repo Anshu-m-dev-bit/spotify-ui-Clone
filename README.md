@@ -28,5 +28,4 @@ The application features a clean and simple user interface inspired by Spotify a
 ## 📸 Screenshots
 
 Example:
-```md
 ![Spotify Clone Home](./screenshots/home.png)
